@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".about_application">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/backtosettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_arrow"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Application"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="fill"
+        android:text="At Nearby Workers, our mission is to connect skilled workers with local job opportunities, empowering them to showcase their expertise, find work in their area, and build successful careers.
+
+ Nearby Workers is a comprehensive mobile application designed to bridge the gap between workers and job opportunities. We cater to a diverse range of industries, including construction, maintenance, cleaning, landscaping, caregiving, and more. Whether you're a plumber, electrician, painter, or caregiver, Nearby Workers is your trusted platform for finding nearby work.
+Finding job opportunities near you has never been easier with Nearby Workers. Our user-friendly interface allows workers to browse and filter job listings based on location, industry, and availability. We prioritize convenience and efficiency, ensuring that workers can quickly connect with employers and secure jobs.
+ We understand the importance of trust and reliability in the workplace. To maintain a high standard of quality, Nearby Workers verifies all workers on our platform, ensuring they possess the necessary qualifications, certifications, and experience. Employers can confidently hire skilled professionals who have undergone a rigorous vetting process.
+Transparency is at the core of Nearby Workers. Our platform features a robust review and rating system, enabling employers to provide feedback on workers they have hired. This system promotes accountability, rewards excellence, and assists employers in making informed decisions when selecting workers.
+NearbWorkers facilitate seamless communication between workers and employers. Our in-app messaging feature allows direct and instant communication, enabling workers teasily discuss job details, negotiate terms, and coordinate schedulesse. Effective communication leads to successful collaborations.
+Nearby Workers operates in various cities and towns across the country, connecting workers with local job opportunities. Whether you're in a bustling metropolis or a suburban neighborhood, our platform helps you find work in your preferred location.
+The safety and security of our users are paramount. Nearby Worker implement robust security measures, including encrypted communication and secure payment gateways, to protect personal information and financial transactions. We prioritize data privacy and maintain strict security protocols.
+Our dedicated customer support team is available to assist workers with any inquiries or concerns they may have. Whether it's technical support, account assistance, or general inquiries, we're here to provide timely and reliable support.
+Nearby Workers is committed to continual improvement. We are constantly working on enhancing the application's features and functionalities to provide an even better user experience. Stay tuned for future updates, including expanded job categories, advanced matching algorithms, and new opportunities for professional growth."
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.005" />
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="com.example.towntour.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACt" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NWS"
+        tools:targetApi="31">
+        <activity
+            android:name=".job_notification"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".about_application"
+            android:exported="false" />
+        <activity
+            android:name=".edit_worker_profile"
+            android:exported="false" />
+        <activity
+            android:name=".user_profile"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/apikey" />
+
+        <activity
+            android:name=".worker_profile"
+            android:exported="false"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".worker_doc_page"
+            android:exported="false"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".worker_signup"
+            android:exported="false"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".worker_login"
+            android:exported="false"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".user_signup"
+            android:exported="false"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".user_login"
+            android:exported="false"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".first_page"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.NWS.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+    </application>
+
+</manifest>

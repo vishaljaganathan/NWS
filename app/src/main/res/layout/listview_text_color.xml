@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listview_text"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:textColor="@color/black"
+    android:text="text"
+    android:fontFamily="sans-serif-smallcaps"
+    android:paddingLeft="10dp"
+    android:layout_gravity=""
+    android:textSize="20sp">
+
+</TextView>

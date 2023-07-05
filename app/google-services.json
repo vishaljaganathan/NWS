@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "811279390619",
+    "firebase_url": "https://nearbyworkers-e2d4d-default-rtdb.firebaseio.com",
+    "project_id": "nearbyworkers-e2d4d",
+    "storage_bucket": "nearbyworkers-e2d4d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:811279390619:android:683fcadcd49907fa46f33e",
+        "android_client_info": {
+          "package_name": "com.vishcorp.nws"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "811279390619-j7h5tmfrf5k6f73ace7ep57ue7ar96ul.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vishcorp.nws",
+            "certificate_hash": "013a36206f0ba0838d2bc2104d92a1a19fee0e6e"
+          }
+        },
+        {
+          "client_id": "811279390619-tdt17j6m293k55jshr41k8bp3a26jt49.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5RH_4eMxpoZ15loNUKJMvqyFHwcWoNK8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "811279390619-tdt17j6m293k55jshr41k8bp3a26jt49.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
